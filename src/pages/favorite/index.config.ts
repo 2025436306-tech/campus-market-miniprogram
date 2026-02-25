@@ -1,4 +1,4 @@
 export default definePageConfig({
-  navigationBarTitleText: '拾集校园',
+  navigationBarTitleText: '我的收藏',
   navigationBarBackgroundColor: '#f4f4f5'
 })
