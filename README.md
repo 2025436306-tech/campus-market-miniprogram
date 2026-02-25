@@ -54,7 +54,9 @@
    git clone [https://github.com/2025436306-tech/campus-market-miniprogram.git](https://github.com/2025436306-tech/campus-market-miniprogram.git)
    
 2.**安装依赖**
+```bash
   npm install
+```
 
 3.**环境配置**
   ·在微信开发者工具中导入项目。
