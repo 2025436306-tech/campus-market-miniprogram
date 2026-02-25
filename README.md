@@ -52,3 +52,20 @@
 1. **克隆项目**
    ```bash
    git clone [https://github.com/2025436306-tech/campus-market-miniprogram.git](https://github.com/2025436306-tech/campus-market-miniprogram.git)
+2.**安装依赖**
+```bash
+  npm install
+3.**环境配置**
+```bash
+  ·在微信开发者工具中导入项目。
+  ·申请并开启微信小程序云开发。
+  ·在 app.ts 中填入你的云开发环境 ID。
+4.**数据库准备**
+```bash
+  ·在云数据库中新建集合：products, message_sessions, chat_records, product_comments, reports, notices。
+  ·将集合权限设置为“所有用户可读，仅创建者可读写”。
+
+  ⚖️ 许可证
+本项目采用 MIT 许可证。
+
+由 SunT 开发 | 2026年
