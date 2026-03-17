@@ -19,7 +19,7 @@ export default function ForumDetail() {
   const [likesCount, setLikesCount] = useState(0);
 
   useShareAppMessage(() => {
-    return { title: post?.content || '分享了一条校园动态', path: `/pages/forum/detail?id=${id}` };
+    return { title: (post && post.content) || '分享了一条校园动态', path: `/pages/forum/detail?id=${id}` };
   });
 
   useEffect(() => {

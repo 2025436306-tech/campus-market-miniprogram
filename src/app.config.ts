@@ -1,6 +1,7 @@
 export default defineAppConfig({
   pages: [
     'pages/index/index',
+    'pages/address/index',//地址
     'pages/login/index', // 新增登录页面路径
     'pages/agreement/service', // 新增：用户服务协议页面
     'pages/agreement/privacy',  // 新增：隐私权政策页面
@@ -26,5 +27,8 @@ export default defineAppConfig({
     navigationBarBackgroundColor: '#ffffff',
     navigationBarTitleText: '拾集校园',
     navigationBarTextStyle: 'black'
-  }
+  },
+  requiredPrivateInfos: [
+    "chooseAddress"
+  ]
 })
